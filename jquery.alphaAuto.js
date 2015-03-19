@@ -1,3 +1,13 @@
+/**
+ * jquery.alphaAuto
+ * @author hisayoshi hayashi: HYS INC.
+ * @license MIT license
+ *
+ * @param opacity {int}: 0 or 1
+ * @param duration {int}: millisecond
+ * @param callback {function}: function
+ */
+
 ;(function($) {
   $.fn.alphaAuto = function(opacity, duration, callback) {
 
